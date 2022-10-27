@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:TextBox ID="txtConteo" runat="server"></asp:TextBox>
+            <asp:Button ID="btnIncrementa" runat="server" Text="Incrementa" OnClick="btnIncrementa_Click"></asp:Button>
         </div>
     </form>
 </body>
